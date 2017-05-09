@@ -1,5 +1,13 @@
 sudo: false
 language: ruby
 rvm:
-  - 2.4.0
+- 2.4.0
 before_install: gem install bundler -v 1.14.6
+deploy:
+  provider: rubygems
+  api_key:
+    secure: PFjTjZZBdqtY+/RU+Nh4LRrnk6IFhJDfYLaLg9EVvbm5+bT2MO9xkv54TteCk91fgOiz2i9rIIpUTR8r0Vzux9/hkq6t6wZ7q5TausoiF9VHpfdI8Z60tsVACKbNo8Ui3hTZ8p2YU+VfKl0HBFQbrQUiP660XQcYMoJ0z12Grezs/P3w7agpqo++HWmWmCePeJztfOJT/gxL3zrFCDihC75muG2qv1hILH/N+FVHfT7TofsLPiNBHMNQo2mCGp10LVZzeCb+d/ECJWDCMdrDzWJgnxLAFe4CyLKPVJrMnDxHzOIyOTea44Q7V7GGimH1N7wamUPjfaBarreXHTtR4MoeGqes1vswAANbnez/4mRkOjsh9bmd8dB67PQoLOKJAFbOJaTOGy/ex0le78WQRR9rORLbsYwHBfNh4QgyHSYOG/cExHbsZSxeQ1vK9sOlqKv0Ck1jmE2ixOeW6SB0CYUTL6e0u777zrMxyKPClyZG87KJC8pKB562fGFNli7w5meshfSiv9t/DX2d4MhE5assJ0Oaw3aRqSJHYSRfup8Gtz9940vmrHzfcXf+bfCITcuKGJnNI9XD/a3dS1wruq3nPUwkV/UvWG9NwRWbtjzEyMN7FpOXL5/+f9Vx/HSTVoaRnJ6OdNmyjJfak+kFybvcvkKFBVyQfUG3D8f70jg=
+  gem: monstercat
+  on:
+    tags: true
+    repo: cameronbroe/monstercat
