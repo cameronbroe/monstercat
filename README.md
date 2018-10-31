@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/cameronbroe/monstercat.svg?branch=master)](https://travis-ci.org/cameronbroe/monstercat)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcameronbroe%2Fmonstercat.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcameronbroe%2Fmonstercat?ref=badge_shield)
 
 # Monstercat
 
@@ -39,3 +40,6 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/camero
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcameronbroe%2Fmonstercat.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcameronbroe%2Fmonstercat?ref=badge_large)
